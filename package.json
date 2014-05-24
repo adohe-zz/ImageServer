@@ -1,0 +1,28 @@
+{
+  "name": "ImageServer",
+  "version": "1.0.0",
+  "description": "Node.js based image server with type validation, image resizing, file cache, Uniform Resoruce Identifier generation and also support https.",
+  "main": "server.js",
+  "scripts": {
+    "test": "make test",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "node-static": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://AdoHe@github.com/AdoHe/ImageServer.git"
+  },
+  "keywords": [
+    "Node",
+    "image",
+    "server",
+    "image resizing"
+  ],
+  "author": "TonyHe <coolhzb@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdoHe/ImageServer/issues"
+  }
+}
