@@ -1,8 +1,8 @@
 module.exports = {
-  tmpDir: '',
-  publicDir: '',
-  uploadDir: '',
-  uploadUrl: '/images',
+  tmpDir: '../tmp',
+  publicDir: '../public',
+  uploadDir: '../public/images',
+  uploadUrl: '/images/',
   acceptFileTypes: /.+/i,
   imageTypes: /\.(gif|jpe?g|png|bmp|swf)$/i,
   imageVersions: {
