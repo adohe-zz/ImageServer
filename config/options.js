@@ -23,6 +23,6 @@ module.exports = {
   }
   */
   nodeStatic: {
-    cache: 36000
+    cache: 3600
   }
 };

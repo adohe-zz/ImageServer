@@ -1,6 +1,6 @@
 var requestHandler = require('./lib/_request_handler'),
     options = require('./config/options'),
-    port = process.env.PORT || 8080;
+    port = process.env.PORT || 8000;
 
 if (options.ssl) {
   require('https').createServer(options.ssl, requestHandler).listen(port);
