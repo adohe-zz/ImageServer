@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "node-static": "*",
-    "gm": "*"
+    "gm": "*",
+    "formidable": "*"
   },
   "repository": {
     "type": "git",

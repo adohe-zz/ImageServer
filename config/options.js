@@ -1,7 +1,10 @@
+var path = require('path'),
+    basePath = path.resolve(__dirname, '..');
+
 module.exports = {
   tmpDir: '../tmp',
-  publicDir: '../public',
-  uploadDir: '../public/images',
+  publicDir: basePath + '/public',
+  uploadDir: basePath + '/public/images',
   uploadUrl: '/images/',
   acceptFileTypes: /.+/i,
   imageTypes: /\.(gif|jpe?g|png|bmp|swf)$/i,
