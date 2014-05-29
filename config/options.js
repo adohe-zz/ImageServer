@@ -2,7 +2,7 @@ var path = require('path'),
     basePath = path.resolve(__dirname, '..');
 
 module.exports = {
-  tmpDir: '../tmp',
+  tmpDir: basePath + '/tmp',
   publicDir: basePath + '/public',
   uploadDir: basePath + '/public/images',
   uploadUrl: '/images/',
