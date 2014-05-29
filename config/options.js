@@ -6,6 +6,8 @@ module.exports = {
   publicDir: basePath + '/public',
   uploadDir: basePath + '/public/images',
   uploadUrl: '/images/',
+  minFileSize: 1,
+  maxFileSize: 10485760, // 10MB
   acceptFileTypes: /.+/i,
   imageTypes: /\.(gif|jpe?g|png|bmp|swf)$/i,
   imageVersions: {
