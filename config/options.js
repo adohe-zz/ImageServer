@@ -8,6 +8,7 @@ module.exports = {
   uploadUrl: '/images/',
   minFileSize: 1,
   maxFileSize: 10485760, // 10MB
+  maxPostSize: 10485760, // 10MB
   acceptFileTypes: /.+/i,
   imageTypes: /\.(gif|jpe?g|png|bmp|swf)$/i,
   imageVersions: {
