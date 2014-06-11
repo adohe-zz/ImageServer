@@ -1,4 +1,22 @@
-ImageServer
-===========
+# ImageServer
 
-Node.js based image server with type validation, image resizing, file cache, Uniform Resource Identifier generation and also support https.
+Node.js based image server.
+
+## Features
+
+* File type validation
+* Image resizing
+* Cache Control
+* URI Generation
+* HTTPS Support
+
+## Installation
+
+## Basic Usage
+
+## Configure
+
+## Licence
+
+## Contributing
+
