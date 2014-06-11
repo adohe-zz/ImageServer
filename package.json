@@ -1,7 +1,7 @@
 {
   "name": "ImageServer",
   "version": "1.0.0",
-  "description": "Node.js based image server with type validation, image resizing, file cache, Uniform Resoruce Identifier generation and also support https.",
+  "description": "Node.js based image server.",
   "main": "server.js",
   "scripts": {
     "test": "make test",
@@ -11,6 +11,10 @@
     "node-static": "*",
     "gm": "*",
     "formidable": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
   },
   "repository": {
     "type": "git",
