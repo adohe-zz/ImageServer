@@ -10,7 +10,7 @@ Node.js based image server.
 * URI Generation
 * HTTPS Support
 
-## Installation
+## Getting started
 
 ## Basic Usage
 
