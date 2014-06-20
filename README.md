@@ -1,4 +1,5 @@
 # ImageServer
+![Build Status](https://api.travis-ci.org/AdoHe/ImageServer.png?branch=master)
 
 Node.js based image server.
 
@@ -65,6 +66,10 @@ $ make test
 
 It took me sometime doing this, hope this will help you. If you find anything wrong and you have 
 better solutions, you are welcome to send pull requests or open issues:)
+
+## TODO
+
+Use [sharp](https://github.com/lovell/sharp) to do image resizing.
 
 ## Licence
 
