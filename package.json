@@ -1,5 +1,5 @@
 {
-  "name": "ImageServer",
+  "name": "imageserver",
   "version": "1.0.0",
   "description": "Node.js based image server.",
   "main": "server.js",
