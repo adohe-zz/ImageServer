@@ -15,7 +15,8 @@
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
-    "request": "*"
+    "request": "*",
+		"form-data":"*"
   },
   "repository": {
     "type": "git",

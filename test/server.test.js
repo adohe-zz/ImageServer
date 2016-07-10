@@ -4,6 +4,7 @@ var http = require('http'),
     should = require('chai').should(),
     request = require('request'),
     fs = require('fs'),
+		formData = require('form-data'),
     requestHandler = require('../lib/_request_handler');
 
 describe('server.test.js', function () {
@@ -44,14 +45,10 @@ describe('server.test.js', function () {
 
     describe('#post()', function () {
 
-      /*before(function (done) {
-        var options = {
-          url: 'http://127.0.0.1:8080/',
-          headers: {
-            'Content-Type': 'multipart/form-data'
-          }
-        };
-        fs.createReadStream('./test/ask.png').pipe(request.post(options));
+      before(function (done) {
+        var form = new formData();
+				form.append('file', fs.createReadStream('./test/ask.png'));
+				form.submit('http://127.0.0.1:8080');
         done();
       });
 
@@ -62,7 +59,7 @@ describe('server.test.js', function () {
           should.exist(body);
           done();
         });
-      });*/
+      });
     });
 
     describe('#destroy()', function () {
